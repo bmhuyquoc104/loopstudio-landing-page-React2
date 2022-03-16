@@ -8,28 +8,28 @@ const CreationSection = () => {
     {
       id: 1,
       bg: `${imagesResource.DeepEarthMB}`,
-      bgPC: `${imagesResource.DeepEarthPC}`,
+      bgpc: `${imagesResource.DeepEarthPC}`,
 
       text: "Deep Earth",
     },
     {
       id: 2,
       bg: `${imagesResource.NightArcadeMB}`,
-      bgPC: `${imagesResource.NightArcadePC}`,
+      bgpc: `${imagesResource.NightArcadePC}`,
       text: "Night Arcade",
     },
 
     {
       id: 3,
       bg: `${imagesResource.SoccerTeamMB}`,
-      bgPC: `${imagesResource.SoccerTeamPC}`,
+      bgpc: `${imagesResource.SoccerTeamPC}`,
       text: "Soccer Team Vr",
     },
 
     {
       id: 4,
       bg: `${imagesResource.GridMB}`,
-      bgPC: `${imagesResource.GridPC}`,
+      bgpc: `${imagesResource.GridPC}`,
       text: "The Grid",
       width: "30%",
     },
@@ -37,28 +37,28 @@ const CreationSection = () => {
     {
       id: 5,
       bg: `${imagesResource.FromAboveMB}`,
-      bgPC: `${imagesResource.FromAbovePC}`,
+      bgpc: `${imagesResource.FromAbovePC}`,
       text: "From Up Above VR",
     },
 
     {
       id: 6,
       bg: `${imagesResource.PocketBoreailMB}`,
-      bgPC: `${imagesResource.PocketBoreailPC}`,
+      bgpc: `${imagesResource.PocketBoreailPC}`,
       text: "Pocket Borealis",
     },
 
     {
       id: 7,
       bg: `${imagesResource.CuriosityMB}`,
-      bgPC: `${imagesResource.CuriosityPC}`,
+      bgpc: `${imagesResource.CuriosityPC}`,
       text: "The Curiosity",
     },
 
     {
       id: 8,
       bg: `${imagesResource.FishEyeMB}`,
-      bgPC: `${imagesResource.FishEyePC}`,
+      bgpc: `${imagesResource.FishEyePC}`,
       text: "Make It Fisheye",
     },
   ];
@@ -97,7 +97,7 @@ const CreationSection = () => {
           element.id === 4 ? (
             <Card
               bg={element.bg}
-              bgPC={element.bgPC}
+              bgpc={element.bgpc}
               wd={element.width}
               text={element.text}
               key={element.id}
@@ -105,7 +105,7 @@ const CreationSection = () => {
           ) : (
             <Card
               bg={element.bg}
-              bgPC={element.bgPC}
+              bgpc={element.bgpc}
               text={element.text}
               key={element.id}
               wd="45%"

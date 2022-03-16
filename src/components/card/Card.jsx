@@ -1,7 +1,11 @@
 import React from "react";
 import { CardStyled } from "./Card.styled";
 import { motion } from "framer-motion";
-const Card = ({ bg, text, wd,bgPC }) => {
+
+
+
+
+const Card = ({ bg, text, wd,bgpc }) => {
   console.log(wd);
   console.log(text);
 
@@ -42,12 +46,12 @@ const Card = ({ bg, text, wd,bgPC }) => {
       <CardStyled
         variants={cardMotion}
         bg={bg}
-        bgPC ={bgPC}
+        bgpc ={bgpc}
 
       >
         <motion.h2
           variants={textMotion}
-          wd={wd}
+          style = {{width:`${wd}`}}
         >
           {text}
         </motion.h2>
