@@ -1,52 +1,118 @@
-# Project noted:
+<div align="center">
 
-1. ## useMediaQuery custom hook:
-    This hook is used to re render the website by the actual media screen of the devices. For example, mobile and desktop version will have unique design
+<h1 align="center">Loopstudios</h1>
+<h3 align="center">
 
-    Example:
-     ```js
-     export default function useMediaQuery(query) {
+  [ViewDemo](https://bmhuyquoc104.github.io/loopstudio-landing-page-React2/)
+</h3>
 
-     const [matches, setMatches] = useState(false);
+</div>
 
-     useEffect(() => {
-     const media = window.matchMedia(query);
-     if (media.matches !== matches) {
-        setMatches(media.matches);
-     }
-     const listener = () => {
-        setMatches(media.matches);
-     };
-     media.addEventListener('change',listener);
-     return () => media.removeEventListener('change',listener);
-     }, [matches, query]);
-     return matches;
-   }  
-   ```
+<!-- Table of Contents -->
+# :notebook_with_decorative_cover: Table of Contents
 
-2.  ## React provide tenary render
-    ```js
-    {isCondition ? (render A) : (renderB)}
-    ```
-    
-3. ## WhileInView
-    -Use to show animation when the element is in the view 
-    - This code used to set the animation only occur once since the view is first seen.
-    ```js
-    viewport={{ once: true }} 
-    ```
+- [:notebook_with_decorative_cover: Table of Contents](#notebook_with_decorative_cover-table-of-contents)
+  - [:star2: About the Project](#star2-about-the-project)
+    - [💡Introduction](#introduction)
+    - [:camera: Screenshots](#camera-screenshots)
+    - [:space_invader: Tech Stack](#space_invader-tech-stack)
+    - [:dart: Features](#dart-features)
+      - [***Main Features:***](#main-features)
+    - [:key: Further Improvement](#key-further-improvement)
+    - [:bangbang: Prerequisites](#bangbang-prerequisites)
+    - [🔧 installation](#-installation)
+  - [:handshake: Contact](#handshake-contact)
 
-4. ## Absolute, Relative
+  
 
-- Another approach for render overflow elements is set the container for these elements, then set the position for both container and elements, then set the correct position for each element
+<!-- About the Project -->
+## :star2: About the Project
+### 💡Introduction
+A gorgeous and expertly landing website to display the information of the loopstudios company.
 
-5. ## Animate Presence
+<!-- Screenshots -->
+### :camera: Screenshots
 
-- To animate different elements, set the unique key for each element
 
-6. ## Motion
+<div style="display:flex;flex-direction:row;flex-wrap: wrap; gap:4em">
+  <div>
+    <p>Desktop navbar</p>
+    <img style = "object-fit:contain" src = "https://i.imgur.com/UQG7adg.png" width="800" height="400"/>
+  </div>
+  <div>
+    <p>Desktop section 2</p>
+    <img style = "object-fit:contain" src = "https://i.imgur.com/rMrdfFQ.png" width="500" height="700"/>
+  </div>
+   <div>
+    <p>Desktop section 3</p>
+    <img style = "object-fit:contain" src = "https://i.imgur.com/UZxG5cQ.png" width="800" height="400"/>
+  </div>
+     <div>
+    <p>Desktop section 4</p>
+    <img style = "object-fit:contain" src = "https://i.imgur.com/wKgwz0s.png" width="500" height="700"/>
+  </div>
+  <div>
+    <p>Mobile section</p>
+    <img style = "object-fit:contain" src = "https://i.imgur.com/MtTRpLK.png" width="500" height="700"/>
+  </div>
+  <div>
+    <p>Mobile section 2</p>
+    <img style = "object-fit:contain" src = "https://i.imgur.com/IZfXgLS.png" width="500" height="700"/>
+  </div>
+   <div>
+    <p>Mobile section 3</p>
+    <img style = "object-fit:contain" src = "https://i.imgur.com/zDrsFFD.png" width="500" height="700"/>
+  </div>
+   <div>
+    <p>Mobile section 4</p>
+    <img style = "object-fit:contain" src = "https://i.imgur.com/J5skLpQ.png" width="500" height="700"/>
+  </div>
+  <div>
+    <p>Mobile navbar</p>
+    <img style = "object-fit:contain" src = "https://i.imgur.com/TeFGyOS.png" width="500" height="700"/>
+  </div>
+</div>
 
-- In styled.js, can use 
-   ```js
-  styled(motion.div)
-to set animation for that element
+
+<!-- TechStack -->
+### :space_invader: Tech Stack
+-    React, Styled Component, Framer Motion.
+
+<!-- Features -->
+### :dart: Features
+
+####    ***Main Features:***
+- View the optimal layout for the site depending on their device's screen size
+- See hover states for all interactive elements on the page
+- Animation for products
+
+
+### :key: Further Improvement
+-   Add pages for the navigation link.
+
+
+<!-- Prerequisites -->
+### :bangbang: Prerequisites
+
+-    Npm and NVM manager
+
+<!-- Installation -->
+### 🔧 installation
+-    Clone this project from my GitHub link below
+-    Open this project in visual studio code
+-    Run **npm i** to install node modules
+```js
+npm i
+```
+
+-    Run the project on local.
+```js
+npm start
+```
+
+<!-- Contact -->
+## :handshake: Contact
+
+Gmail: - bmhuyquoc104@gmail.com
+
+Project Link: [https://github.com/bmhuyquoc104/Loopstudios Website](ttps://github.com/bmhuyquoc104/loopstudio-landing-page-React2)
