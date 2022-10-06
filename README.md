@@ -41,7 +41,7 @@ A gorgeous and expertly landing website to display the information of the loopst
   </div>
   <div>
     <p>Desktop section 2</p>
-    <img style = "object-fit:contain" src = "https://i.imgur.com/rMrdfFQ.png" width="500" height="400"/>
+    <img style = "object-fit:contain" src = "https://i.imgur.com/rMrdfFQ.png" width="800" height="400"/>
   </div>
    <div>
     <p>Desktop section 3</p>
@@ -49,7 +49,7 @@ A gorgeous and expertly landing website to display the information of the loopst
   </div>
      <div>
     <p>Desktop section 4</p>
-    <img style = "object-fit:contain" src = "https://i.imgur.com/wKgwz0s.png" width="500" height="400"/>
+    <img style = "object-fit:contain" src = "https://i.imgur.com/wKgwz0s.png" width="800" height="400"/>
   </div>
   <div>
     <p>Mobile section</p>
